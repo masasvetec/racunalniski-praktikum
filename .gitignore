@@ -9,3 +9,6 @@
 *.pdf
 *.pyc
 *.synctex.gz
+
+__MACOSX
+.DS_Store
