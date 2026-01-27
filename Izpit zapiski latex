@@ -1,0 +1,49 @@
+\documentclass[a4paper,10pt]{article} 
+\usepackage{amsthm}
+
+\newcommand{\m}{\mathcal{M}}
+
+{\theoremstyle{definition}
+\newtheorem{definicija}{Definicija}[section]
+}
+
+{\theoremstyle{plain}
+\newtheorem{izrek}{Izrek}[section]
+}
+
+\begin{document}
+
+\title{Izdelava urnikov}
+\author{Nejc Širovnik}
+\date{14.10.2019}
+\maketitle
+
+\begin{abstract}
+    povzetek
+\end{abstract}
+
+\section{Uvod}
+To je uvod
+
+\begin{definicija}
+    definicija
+\end{definicija}
+
+\begin{table}
+   \centering
+   \caption{Število različnih normalnih magičnih kvadratov}
+   \label{table:stevila}
+   \begin{tabular}{lcccccc}
+         & \multicolumn{5}{c}{točna vrednost} & približek \\ \midrule
+      red & 1 & 2 & 3 & 4 & 5 & 6 \\
+      število kvadratov & 1 & 0 & 1 & 880 & 275305224 & !! \\ \bottomrule
+   \end{tabular}
+\end{table}
+
+% label za oznake
+
+\bibliographystyle{siam}
+% citiraš s cite
+\bibliography{magic}
+
+\end{document}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enostavna spletna stran</title>
+    <meta charset="UTF-8"> <!-- Nastavimo kodiranje znakov na UTF-8 -->
+  </head>
+  <body>
+    <!-- V naslednjih dveh vrsticah je vsebina (telo) spletne strani -->
+    <h1 id="naslov">Jaz sem naslov!</h1> <!-- Ostali podnaslovi nato h2, h3, ... -->
+    <!-- id je za oznake da se lahko sklicujemo -->
+    <p>V <strong>odstavkih</strong> imamo lahko tudi <a href="https://www.fmf.uni-lj.si/">povezave</a></p> 
+    <!-- p je značka za odstavke, strong za poudarek, em za italic pisavo -->
+    <ol> <!-- Ordered list, ul je za unordered list (za sezname) -->
+        <li>element 1</li> <!-- List item -->
+        <li>element 2</li>
+    </ol>
+    <blockquote>Citat</blockquote> <!-- Značka za citate -->
+    <table>
+        <tr>
+            <th>prvi stolpec</th>
+            <th>drugi stolpec</th>
+        </tr> <!-- tr so vrstice, td celice, th pa celice za glavo tabele -->
+        <tr>
+            <td>neki 1</td>
+            <td>neki 2</td>
+        </tr>
+        <tr>
+            <td>neki neki 1</td>
+            <td>neki neki 2</td>
+        </tr>
+    </table>
+    Naslov <a href="#naslov">Naslov</a> <!-- sklicevanje, če kliknemo nas pelje do naslova -->
+    <!-- div je značka za odstavke -->
+    <!-- <img src="tea-bowl.jpg" alt="tea-bowl.jpg"> slikica, src je pot, alt pa ime-->
+  </body>
+</html>
